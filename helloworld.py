@@ -18,7 +18,7 @@ class MainPage(webapp2.RequestHandler):
 class ProductListHandler(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write('This is the productList Handler ' )
+        self.response.write('This is the productList Handler 1' )
         #self.response.write("This is the ProductHandler"
         #                    'The product id is %s'%product_id)
 
