@@ -26,7 +26,7 @@ class ProductHandler(webapp2.RequestHandler):
     def get(self,id,id2):
         self.response.headers['Content-Type'] = 'text/plain'
         value = int(id)*int(id2)
-        self.response.write(" The product  is %s" % value)
+        self.response.write(" The product jj is %s" % value)
         
 routes = [
     (r'/', MainPage),
